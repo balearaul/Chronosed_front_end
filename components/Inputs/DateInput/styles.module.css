@@ -1,0 +1,80 @@
+.dateInputContainer {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.dateInputContainer:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.dateInput {
+  color: rgb(80, 80, 80);
+
+  visibility: hidden;
+  height: 20px;
+  width: 0px;
+  position: absolute;
+}
+
+.input {
+  border: none;
+  width: 20px;
+  height: 100%;
+
+  text-align: center;
+
+  color: rgb(120, 120, 120);
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+
+  padding: 0px;
+
+  cursor: pointer;
+}
+.input:focus {
+  outline: none;
+}
+.input::placeholder {
+  opacity: 0.5;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.yearInput {
+  width: 40px;
+}
+
+/* REMOVING THE DEFAULT STYLING  */
+/* Chrome, Safari, Edge, Opera */
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.dash {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(150, 150, 150);
+}
+.dateIcon {
+  color: rgb(80, 80, 80);
+  background-color: rgb(240, 240, 240);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+}
+.dateIcon:hover {
+  background-color: rgb(200, 200, 200);
+}

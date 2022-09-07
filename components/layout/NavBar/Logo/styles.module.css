@@ -1,0 +1,30 @@
+.logo {
+  height: 50px;
+  width: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.logo_svg {
+  height: 40px;
+  width: 50px;
+}
+.chronosed_svg {
+  height: 50px;
+  width: 150px;
+}
+
+.logo_svg:hover {
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(1deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

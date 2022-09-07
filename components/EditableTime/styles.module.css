@@ -1,0 +1,35 @@
+.timeInputSectionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  padding-bottom: 3px;
+}
+.button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.done {
+  color: green;
+}
+
+.close {
+  color: rgb(150, 150, 150);
+}

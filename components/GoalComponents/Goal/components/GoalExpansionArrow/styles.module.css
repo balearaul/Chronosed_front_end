@@ -1,0 +1,28 @@
+.arrow {
+  height: 40px;
+  width: 30px;
+
+  border-radius: 3px;
+  background-color: rgb(240, 240, 240);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(160, 160, 160);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.arrow:hover {
+  border: 2px solid rgb(180, 180, 180);
+}
+
+.open {
+  background-color: rgb(240, 240, 240);
+  color: rgb(80, 80, 80);
+  border: 2px solid rgb(150, 150, 150);
+}
+.open:hover {
+  background-color: rgb(220, 220, 220);
+  border: 2px solid rgb(120, 120, 120);
+}

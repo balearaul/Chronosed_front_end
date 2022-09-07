@@ -1,0 +1,17 @@
+.breadcrum {
+  color: gray;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 5px;
+}
+.breadcrum:hover {
+  background-color: rgb(210, 210, 210);
+}
+.breadcrumContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.little {
+  font-size: 0.8rem;
+}

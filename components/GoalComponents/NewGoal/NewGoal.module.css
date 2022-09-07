@@ -1,0 +1,39 @@
+.newGoalContainer {
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+
+  word-break: break-word;
+
+  color: rgb(50, 50, 50);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.newGoalContainer:hover {
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
+}
+
+.titleContainer {
+  width: 100%;
+}
+.buttons_container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 10px;
+}

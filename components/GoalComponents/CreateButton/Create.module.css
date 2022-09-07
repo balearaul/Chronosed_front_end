@@ -1,0 +1,46 @@
+.create_container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 0px;
+}
+
+.width_90 {
+  width: 100%;
+  max-width: 90%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.create {
+  border: 2px rgb(230, 230, 230) solid;
+  /* background-color: rgb(240, 240, 240); */
+  border-radius: 50px 50px 0px 0px;
+  padding-bottom: 5px;
+  /* margin-bottom: 10px; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 500px;
+
+  height: 40px;
+
+  font-size: 2em;
+  color: gray;
+
+  cursor: pointer;
+
+  background: rgba(255, 255, 255, 0.19);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+}
+.create:hover {
+  color: rgb(80, 80, 80);
+  border: 2px rgb(200, 200, 200) solid;
+}

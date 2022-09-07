@@ -1,0 +1,52 @@
+.modal {
+  /* This way it could be display flex or grid or whatever also. */
+  display: block;
+  padding: 30px;
+
+  /* Probably need media queries here */
+  width: 600px;
+  max-width: 100%;
+
+  height: 400px;
+  max-height: 100%;
+
+  position: fixed;
+
+  z-index: 100;
+
+  left: 50%;
+  top: 50%;
+
+  /* Use this for centering if unknown width/height */
+  transform: translate(-50%, -50%);
+
+  /* If known, negative margins are probably better (less chance of blurry text). */
+  /* margin: -200px 0 0 -200px; */
+
+  background-color: rgb(240, 240, 240);
+  border-radius: 10px;
+  border: rgb(150, 150, 150) 2px solid;
+}
+.close_button {
+  position: absolute;
+  top: -1px;
+  /* needs to look OK with or without scrollbar */
+  right: -1px;
+
+  border: none;
+  border-radius: 5px 10px 5px 5px;
+  background: rgb(80, 80, 80);
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* z-index: -1; */
+}

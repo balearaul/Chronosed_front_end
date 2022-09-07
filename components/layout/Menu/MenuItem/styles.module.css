@@ -1,0 +1,30 @@
+.menu_item {
+  padding-left: 25px;
+
+  height: 50px;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 1.2rem;
+
+  color: rgb(80, 80, 80);
+
+  cursor: default;
+
+  transition: all 0.2s;
+}
+.menu_item:hover {
+  background-color: white;
+}
+.menu_item_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_item_text {
+  margin-left: 10px;
+}

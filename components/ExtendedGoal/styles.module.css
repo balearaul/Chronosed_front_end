@@ -1,0 +1,12 @@
+.goal_id_container {
+  width: 90%;
+  margin: 20px auto;
+}
+.goalId {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.goal_hedear {
+  margin-bottom: 20px;
+}

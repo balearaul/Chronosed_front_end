@@ -1,0 +1,35 @@
+.button {
+  height: 30px;
+  width: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 2px solid rgb(240, 240, 240); */
+
+  background-color: rgb(230, 230, 230);
+
+  border-radius: 5px;
+}
+
+.done_button {
+  color: rgba(0, 128, 0, 0.6);
+  width: 100%;
+  margin-right: 5px;
+}
+.done_button:hover {
+  color: rgb(0, 128, 0);
+}
+
+.cancel_button {
+  color: rgb(150, 150, 150);
+}
+.cancel_button:hover {
+  color: rgb(100, 100, 100);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(220, 220, 220);
+}

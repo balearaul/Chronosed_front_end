@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "destination":"/goals/[goal_id].html",
+        "regex":"^/goals/([^/]+?)(?:/)?$"
+      }
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false
+  }
+}

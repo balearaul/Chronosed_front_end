@@ -1,0 +1,31 @@
+.title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 10px 0px 10px 0px;
+  padding-left: 5px;
+  color: rgb(80, 80, 80);
+  border-radius: 5px;
+  border: 2px solid transparent;
+
+  width: 100%;
+  /* max-width: 80%; */
+  word-break: break-word;
+}
+
+.title:empty {
+  border: 2px solid rgb(240, 240, 240);
+}
+.title:focus {
+  outline: none;
+  border: rgb(240, 240, 240) 2px solid;
+  content: "";
+}
+
+.title:empty::before {
+  content: attr(data-placeholder);
+  color: rgb(230, 230, 230);
+}
+
+.small {
+  font-size: 1.1rem;
+}

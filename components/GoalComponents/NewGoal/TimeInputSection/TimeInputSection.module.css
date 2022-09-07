@@ -1,0 +1,22 @@
+.to {
+  color: rgb(100, 100, 100);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-left: 10px;
+}
+.sub_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
